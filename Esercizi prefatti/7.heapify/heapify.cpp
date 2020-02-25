@@ -121,7 +121,7 @@ int main()
 			tokens.push_back(token);
 		char type=tokens[0].at(0);
 		int n=stoi(tokens[1]);
-		A = new double*[n];
+		A = new double*[n+1];
 		for(int i=1;i<=n;i++)
 		{
 			string value=tokens[i+1];
